@@ -1,11 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(IMAGES/pexels-mikebirdy-120049.jpg);
+    background-position: fixed
+;
+    background-size: cover;
+    background-repeat: 0;
+   
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #333;
-    color: #fff;
+    background: linear-gradient(to right, rgb(33, 10, 235), rgb(6, 255, 180));
+    background-color: rgb(26, 43, 196);
+    color: #fffafa;
     padding: 10px 20px;
     text-align: center;
 }
@@ -26,6 +34,7 @@ nav a:hover {
     background-color: #ddd;
 }
 section {
+    background-color: rgb(26, 43, 196);
     padding: 20px;
 }
 .category {
@@ -46,9 +55,12 @@ section {
 }
 .category li a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     transition: color 0.3s ease;
 }
 .category li a:hover {
     color: #007bff;
+}
+h2{
+    color: #ddd;
 }
